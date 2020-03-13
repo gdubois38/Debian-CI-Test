@@ -1,5 +1,5 @@
 FROM debian
-MAINTAINER moi/demo <moi@moi.fr>
+MAINTAINER gdubois/debian-ci-test<gwendoline.d2107@gmail.com>
 
 RUN apt-get update
 RUN echo "bouuuu"
