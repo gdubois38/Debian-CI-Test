@@ -12,9 +12,9 @@ RUN curl -sL https://deb.nodesource.com/setup_12.x | bash
 # and install node 
 RUN apt-get install -y nodejs
 # confirm that it was successful 
-RUN node -v
+#RUN node -v
 # npm installs automatically 
-RUN npm -v
+#RUN npm -v
 #install angular
 RUN npm install -g @angular/cli@7.3.9
-RUN ng new projetAngular
+#RUN ng new projetAngular
